@@ -1,6 +1,8 @@
 import React, { useReducer } from "react";
 import TodoList from "./utils/TodoList";
 import NewTodoForm from "./NewTodo";
+import "./App.css";
+
 
 function todoReducer(state, action) {
   switch (action.type) {
